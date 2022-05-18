@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+<body>
+    <header>
+        <img src="imgs\Vector.png"/>
+    </header>
+    <main>
+        <section>
+            <div>
+                <textarea name="text" class ="txt" placeholder ="Digite seu texto" cols ="30" rows ="22"></textarea>
+                <div>
+                    <p class="p-att" style="color: gray">Apenas letras minúsculas e sem acento!</p>
+                </div>
+                <div class="btns">
+                    <button class="encriptar" onclick="btnEncriptar()"><span>Criptografar</span></button>
+                    <button class="desencriptar" onclick="btnDesencriptar()"><span>Descriptografar</span></button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <aside class="aside">
+                <textarea name ="resultado" value="" id ="resultado" class="txt2" cols ="50" rows ="50" readonly>
+                </textarea>
+                <div>
+                    <p class="msg">Aguardando mensagem...</p>
+                </div>
+                <div>
+                <button class="btnCopy" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p class="p-footer">Desenvolvido por @Marcelle de Oliveira Firmino - 2022</p>
+        <img src="" href="" alt="">
+        <img src="" href="" alt="">
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

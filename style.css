@@ -1,0 +1,139 @@
+* {
+    font-family: "inter", "sans-serif";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background: #F3F5FC;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.btns , .btn-copy {
+    font-size: 16fr;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.txt {
+    width: 760px;
+    height: 460px;
+    margin-top: 10px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: darkblue;
+    box-shadow: 20px 30px 30px 5px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+    margin-top: 20px;
+    padding: 20px;
+    resize: none;
+}
+
+.txt2 {
+    width: 400px;
+    height: 450px;
+    background: center;
+    border-style: none;
+    resize: none;
+}
+
+.encriptar , .desencriptar {
+    margin: 20px;
+    border: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    place-content: center;
+    font-size: 18px;
+    width: 216px;
+    height: 56px;
+    padding: 2px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f8ffab;
+    top: 60px;
+    border-style: none;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: thick;
+    box-shadow: 30px 25px 80px -8px rgb(0 0 0 / 8%);
+    /* box-shadow: 40px 24px 32px -8px rgb(0 0 0 / 8%); */
+    border-radius: 32px;
+    background-image: url("imgs/boneco.png");
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    text-align: center;
+    color: black;
+    align-content: flex-start;
+}
+
+
+
+.p-footer , .p-att {
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+
+
+.encriptar:hover , .desencriptar:hover {
+    background-color: rgba(0, 0, 139, 0.514);
+    border: 2px solid darkblue;
+    color: white;
+    transition: all 0.3s ease-in;
+    transition-delay: 0.03s;
+}
+
+.btnCopy {
+    margin: 20px;
+    border: rgb(48, 48, 148);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(84, 84, 184);
+    color: white;
+    place-content: center;
+    font-size: 18px;
+    width: 216px;
+    height: 56px;
+    padding: 2px;
+}
+
+.btnCopy:hover {
+    background-color: rgba(93, 93, 161, 0.514);
+    border: 2px solid rgb(52, 52, 143);
+    color: white;
+    transition: all 0.3s ease-in;
+    transition-delay: 0.03s;
+}
+
+.msg {
+    font-family: "inter", "sans-serif";
+}
