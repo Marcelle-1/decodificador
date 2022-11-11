@@ -36,9 +36,5 @@ function desencriptar (stringDesencriptada) {
     return stringDesencriptada;
 }
 
-function btnCopiar() {
-    var copiado = document.getElementById("resultado");
-    copiado.select();
-    execCommand('copy');
-};
+
 
